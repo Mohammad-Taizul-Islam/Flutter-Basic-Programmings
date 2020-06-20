@@ -51,7 +51,13 @@ class _MyState extends State<MyApp>{
                 padding: const EdgeInsets.all(10.0),
                 child: const Text('Greadient Color'),
               ),
+              ),
+              Container(
+                margin: EdgeInsets.all(20),
+                child: FlatButton(onPressed: (){}, child: Text('LOgin'),color: Colors.blueAccent,)
+                
               )
+        
                 
             ],
           ),
